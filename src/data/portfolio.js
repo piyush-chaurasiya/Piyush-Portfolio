@@ -52,37 +52,37 @@ export const certificates = [
   {
     title: "Python Programming Internship",
     issuer: "EISYSTEMS TECHNOLOGIES / Robokwik",
-    file: "/certificates/python-internship.pdf",
+    file: `${import.meta.env.BASE_URL}certificates/python-internship.pdf`,
     meta: "June – August 2026",
   },
   {
     title: "Data Structures and Algorithms Design",
     issuer: "NPTEL · IIT Kanpur",
-    file: "/certificates/nptel-dsa.pdf",
+    file: `${import.meta.env.BASE_URL}certificates/nptel-dsa.pdf`,
     meta: "NPTEL Online Certification",
   },
   {
     title: "Generative AI Literacy",
     issuer: "FutureSkills Prime · NASSCOM",
-    file: "/certificates/gen-ai-literacy.pdf",
+    file: `${import.meta.env.BASE_URL}certificates/gen-ai-literacy.pdf`,
     meta: "Certificate of Learning",
   },
   {
     title: "i-Hack Gaming Hackathon",
     issuer: "E-Cell · IIT Bombay",
-    file: "/certificates/i-hack-gaming.pdf",
+    file: `${import.meta.env.BASE_URL}certificates/i-hack-gaming.pdf`,
     meta: "E-Summit participation",
   },
   {
     title: "GfG 160 Days of Problem Solving",
     issuer: "GeeksforGeeks",
-    file: "/certificates/gfg-160-days.pdf",
+    file: `${import.meta.env.BASE_URL}certificates/gfg-160-days.pdf`,
     meta: "160 Days Challenge",
   },
   {
     title: "Summer Analytics 2025",
     issuer: "Consulting & Analytics Club · IIT Guwahati",
-    file: "/certificates/iit-guwahati-summer-analytics.pdf",
+    file: `${import.meta.env.BASE_URL}certificates/iit-guwahati-summer-analytics.pdf`,
     meta: "Data Science & ML program",
   },
 ];

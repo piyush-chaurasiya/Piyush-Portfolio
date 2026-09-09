@@ -195,7 +195,10 @@ function Hero({ go }) {
           <div className="portrait-wrap">
             <div className="portrait-glow" />
             <div className="portrait-frame">
-              <img src="/images/profile.jpeg" alt="Piyush Chaurasiya" />
+              <img
+                src={`${import.meta.env.BASE_URL}images/profile.jpeg`}
+                alt="Piyush Chaurasiya"
+              />
             </div>
           </div>
           <DynamicCodeCard />
