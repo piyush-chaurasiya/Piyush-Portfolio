@@ -175,7 +175,7 @@ function Hero({ go }) {
 
           <div className="hero-actions">
             <button onClick={() => go("projects")} className="primary-btn">View my work <ArrowRight size={17} /></button>
-            <a href="/resume/Piyush_Resume.pdf" download className="secondary-btn"><Download size={17} /> Resume</a>
+            <a href={`${import.meta.env.BASE_URL}resume/Piyush_Resume.pdf`} download className="secondary-btn"><Download size={17} /> Resume</a>
           </div>
 
           <div className="hero-points">
