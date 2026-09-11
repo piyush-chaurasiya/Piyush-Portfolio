@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   base: mode === "production" ? "/Piyush-Portfolio/" : "/",
 
   plugins: [react(), tailwindcss()],
-
+  base: '/Piyush-Portfolio/',
   server: {
     hmr: true,
     watch: {
@@ -18,3 +18,4 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
