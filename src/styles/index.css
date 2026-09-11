@@ -69,7 +69,7 @@ a { color: inherit; text-decoration: none; }
 .hero-copy { padding-top: 15px; }
 .availability { display: inline-flex; align-items: center; gap: 9px; padding: 8px 14px; border: 1px solid var(--border); border-radius: 999px; background: var(--card); color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .17em; text-transform: uppercase; box-shadow: 0 8px 30px rgba(50,20,35,.04); }
 .availability span { width: 7px; height: 7px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 5px rgba(182,139,53,.08); }
-.hello { margin: 24px 0 0; color: var(--muted); font-size: 15px; font-weight: 600; }
+.hello { margin: 24px 0 0; color: var(--muted); font-size: 25px; font-weight: 600; }
 .hero-copy h1 { margin: 12px 0 0; max-width: 720px; font-family: "Manrope"; font-size: clamp(3.6rem, 7vw, 6.8rem); line-height: .9; letter-spacing: -.065em; font-weight: 800; }
 .hero-copy h1 span { display: block; color: var(--accent); }
 .hero-description { max-width: 680px; margin: 29px 0 0; color: var(--muted); font-size: 17px; line-height: 1.85; }
@@ -82,12 +82,12 @@ a { color: inherit; text-decoration: none; }
 .hero-points { display: flex; flex-wrap: wrap; gap: 19px; margin-top: 28px; color: var(--muted); font-size: 12px; }
 .hero-points span { display: inline-flex; align-items: center; gap: 7px; }
 .hero-points svg { color: var(--accent); }
-.gate-mini { display: flex; align-items: center; gap: 10px; max-width: 450px; margin-top: 25px; padding: 10px 13px; border: 1px solid rgba(182,139,53,.25); border-radius: 14px; background: linear-gradient(90deg, rgba(182,139,53,.08), var(--card)); color: var(--text); text-align: left; transition: .25s ease; }
+.gate-mini { display: flex; align-items: center; gap: 12px; width: min(520px, 100%); max-width: 400px; margin-top: 25px; padding: 14px 16px; border: 1px solid rgba(182,139,53,.25); border-radius: 14px; background: linear-gradient(90deg, rgba(182,139,53,.08), var(--card)); color: var(--text); text-align: left; transition: .25s ease; }
 .gate-mini:hover { transform: translateY(-2px); border-color: rgba(182,139,53,.5); }
-.gate-icon { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; flex: 0 0 32px; border-radius: 10px; background: rgba(182,139,53,.13); color: var(--gold); }
+.gate-icon { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; flex: 0 0 42px; border-radius: 10px; background: rgba(182,139,53,.13); color: var(--gold); }
 .gate-mini span:nth-child(2) { display: flex; flex-direction: column; gap: 2px; }
-.gate-mini b { font-size: 12px; }
-.gate-mini small { color: var(--muted); font-size: 10px; }
+.gate-mini b { font-size: 14px; }
+.gate-mini small { color: var(--muted); font-size: 12px; }
 .gate-mini > svg { margin-left: auto; color: var(--gold); }
 
 .hero-visual { position: relative; width: min(480px,100%); min-height: 560px; margin-left: auto; display: flex; align-items: center; justify-content: center; }
@@ -95,7 +95,7 @@ a { color: inherit; text-decoration: none; }
 .portrait-glow { position: absolute; inset: 8%; border-radius: 40px; background: var(--accent); filter: blur(55px); opacity: .18; }
 .portrait-frame { position: relative; padding: 10px; border-radius: 31px; background: linear-gradient(145deg, var(--accent), #d1a0b6 48%, var(--gold)); box-shadow: 0 35px 90px rgba(50,20,40,.16); }
 .portrait-frame img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; border-radius: 23px; }
-.code-card { position: absolute; z-index: 4; left: -42px; bottom: 25px; width: min(390px, 82%); padding: 15px; border: 1px solid rgba(255,255,255,.11); border-radius: 19px; background: #171017; color: #eee7ec; box-shadow: 0 30px 70px rgba(0,0,0,.28); }
+.code-card { position: absolute; z-index: 4; left: -11rem; bottom: -3.5rem; width: min(390px, 82%); padding: 15px; border: 1px solid rgba(255,255,255,.11); border-radius: 19px; background: #171017; color: #eee7ec; box-shadow: 0 30px 70px rgba(0,0,0,.28); }
 .code-head { display: flex; align-items: center; justify-content: space-between; padding-bottom: 11px; border-bottom: 1px solid rgba(255,255,255,.1); color: #aaa1aa; font-family: monospace; font-size: 11px; }
 .code-head div { display: flex; gap: 6px; }
 .code-head i { display: block; width: 7px; height: 7px; border-radius: 50%; background: #827883; }
@@ -140,7 +140,7 @@ a { color: inherit; text-decoration: none; }
 .skill-top span { font-size: 10px; font-weight: 900; letter-spacing: .18em; }
 .skill-card h3 { margin: 35px 0 17px; font-family: "Manrope"; font-size: 19px; font-weight: 800; }
 .pill-wrap { display: flex; flex-wrap: wrap; gap: 7px; }
-.skill-pill, .tech-tag { padding: 7px 10px; border: 1px solid var(--border); border-radius: 999px; background: var(--bg); color: var(--muted); font-size: 11px; }
+.skill-pill, .tech-tag { display: inline-flex; align-items: center; padding: 9px 13px; border: 1px solid var(--border); border-radius: 999px; background: var(--bg); color: var(--muted); font-size: 13px; font-weight: 700; }
 .tech-tag { color: var(--text); }
 
 .section-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; }
@@ -222,18 +222,32 @@ a { color: inherit; text-decoration: none; }
 .contact-link.static { cursor: default; }
 .contact-link.static:hover { transform: none; }
 
-.footer { border-top: 1px solid var(--border); padding: 26px 0; }
-.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 15px; color: var(--muted); font-size: 11px; }
-.footer-inner p { margin: 0; }
-.footer-inner div { display: flex; gap: 18px; }
-.footer-inner a:hover { color: var(--accent); }
+.site-footer { margin-top: 20px; padding: 70px 0 25px; border-top: 1px solid var(--border); background: linear-gradient(180deg, var(--bg-soft), var(--bg)); }
+.footer-inner { display: block; }
+.footer-top { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr; gap: 42px; padding-bottom: 45px; }
+.footer-brand button { padding: 0; border: 0; background: transparent; color: var(--text); font-family: "Manrope"; font-size: 22px; font-weight: 800; cursor: pointer; }
+.footer-brand button b { color: var(--accent); }
+.footer-brand p { max-width: 360px; margin: 14px 0 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+.footer-column { display: flex; flex-direction: column; align-items: flex-start; gap: 9px; }
+.footer-column h4 { margin: 0 0 7px; color: var(--text); font-size: 12px; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+.footer-column a, .footer-column button { display: inline-flex; align-items: center; gap: 7px; padding: 0; border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 12px; cursor: pointer; transition: .2s ease; }
+.footer-column a:hover, .footer-column button:hover { color: var(--accent); transform: translateX(2px); }
+.footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding-top: 22px; border-top: 1px solid var(--border); color: var(--muted); font-size: 11px; }
+.footer-tech { display: inline-flex; align-items: center; gap: 6px; }
+.back-top { display: inline-flex; align-items: center; gap: 6px; border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 11px; cursor: pointer; }
+.back-top:hover { color: var(--accent); }
+.legal-section { padding: 75px 0; scroll-margin-top: 100px; }
+.legal-card { max-width: 900px; padding: 35px; border: 1px solid var(--border); border-radius: 22px; background: var(--card); box-shadow: var(--shadow); }
+.legal-card h2 { margin: 8px 0 18px; font-family: "Manrope"; font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -.045em; }
+.legal-card h3 { margin: 28px 0 8px; font-family: "Manrope"; font-size: 16px; }
+.legal-card p:not(.section-eyebrow) { margin: 0; color: var(--muted); line-height: 1.85; font-size: 13px; }
 
 @media (max-width: 1049px) {
   :root { --cert-width: calc((100% - 1rem) / 2); }
   .certificate-window { --cert-width: calc((100% - 1rem) / 2); }
   .hero-grid { grid-template-columns: minmax(0,1fr) minmax(330px,.78fr); gap: 30px; }
   .hero-copy h1 { font-size: clamp(3.4rem,7vw,5.8rem); }
-  .code-card { left: -18px; width: 88%; }
+  .code-card { left: -3rem; bottom: -1.5rem; width: 88%; }
   .skill-grid { grid-template-columns: repeat(2,1fr); }
   .achievement-content { grid-template-columns: 1fr 210px; padding: 48px; }
 }
@@ -288,5 +302,28 @@ a { color: inherit; text-decoration: none; }
   .achievement-title strong { font-size: 4.2rem; }
   .achievement-title em { font-size: 8px; }
   .contact-grid { grid-template-columns: 1fr; }
+  .footer-top { grid-template-columns: 1.5fr 1fr 1fr; gap: 30px; }
+  .footer-bottom { flex-wrap: wrap; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
+}
+
+/* Standalone legal pages (opened from the footer) */
+.legal-app { min-height: 100vh; }
+.legal-page { min-height: 100vh; padding: 55px 0 80px; background: radial-gradient(circle at 80% 10%, var(--accent-soft), transparent 28%), var(--bg); }
+.legal-back { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 28px; padding: 0; border: 0; background: transparent; color: var(--muted); font-size: 13px; font-weight: 700; transition: .2s ease; }
+.legal-back:hover { color: var(--accent); transform: translateX(-3px); }
+.legal-page-card { max-width: 900px; margin: 0 auto; padding: clamp(28px, 5vw, 52px); }
+.legal-page-icon { display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; margin-bottom: 22px; border-radius: 15px; background: var(--accent-soft); color: var(--accent); }
+.legal-page-card h1 { margin: 9px 0 18px; font-family: "Manrope"; font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: 1; letter-spacing: -.055em; }
+.legal-intro { max-width: 720px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.85; }
+.legal-block { margin-top: 34px; padding-top: 26px; border-top: 1px solid var(--border); }
+.legal-block h2 { margin: 0 0 9px; font-family: "Manrope"; font-size: 16px; font-weight: 800; }
+.legal-block p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.9; }
+.legal-return { margin-top: 38px; }
+
+@media (max-width: 767px) {
+  .legal-page { padding: 28px 0 55px; }
+  .legal-page-card { padding: 26px 22px; }
+  .legal-page-card h1 { font-size: 2.6rem; }
+  .legal-intro { font-size: 14px; }
 }

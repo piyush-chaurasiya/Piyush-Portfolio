@@ -1,6 +1,6 @@
 # Piyush Chaurasiya Portfolio
 
-React + Vite + Tailwind CSS portfolio starter.
+A professional Java Full Stack Developer portfolio built with React, Vite, Tailwind CSS, Framer Motion and Lucide icons.
 
 ## Run locally
 
@@ -9,33 +9,62 @@ npm install
 npm run dev
 ```
 
-Then open the local URL shown by Vite.
-
-## Build
+## Production build
 
 ```bash
 npm run build
+npm run preview
 ```
 
-## Where to replace links
+## Project structure
 
-Open:
+```text
+src/
+├── assets/
+│   └── images/
+│       └── profile.jpeg
+├── components/
+│   ├── About.jsx
+│   ├── Achievement.jsx
+│   ├── Certificates.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Journey.jsx
+│   ├── Navbar.jsx
+│   ├── ProjectsSection.jsx
+│   ├── SectionHeading.jsx
+│   └── Skills.jsx
+├── data/
+│   └── portfolio.js
+├── pages/
+│   └── LegalPage.jsx
+├── styles/
+│   └── index.css
+├── App.jsx
+└── main.jsx
 
-`src/data/portfolio.js`
+public/
+├── certificates/
+└── resume/
+```
 
-Replace these placeholders:
+## Main features
 
-- `YOUR_CAMPUS_PORTAL_GITHUB`
-- `YOUR_CAMPUS_PORTAL_LIVE`
-- `YOUR_REALITY_CHECK_GITHUB`
-- `YOUR_REALITY_CHECK_LIVE`
-- `YOUR_BRAIN_BATTLE_GITHUB`
-- `YOUR_BRAIN_BATTLE_LIVE`
+- Responsive portfolio layout
+- Light/dark mode
+- GitHub + LinkedIn header actions
+- Dynamic developer code-card typing animation
+- Auto-scrolling project carousel with forward looping
+- Auto-scrolling certificate carousel with forward looping
+- Hover-to-pause carousel behavior
+- GATE 2026 achievement highlight
+- Professional footer
+- Privacy Policy and Terms & Conditions sections
+- GitHub Pages deployment workflow
 
-Social links are already filled with the current profile links provided for the portfolio.
+## Update your details
 
-## Assets
+Edit `src/data/portfolio.js` to update profile information, social links, projects, certificates, skills and journey content.
 
-- Profile photo: `src/assets/images/profile.jpeg`
-- Resume: `src/assets/resume/Piyush_Resume.pdf`
-- Certificates: `src/assets/certificates/`
+Replace the files inside `public/resume/` and `public/certificates/` when you want to update the resume or certificates.
