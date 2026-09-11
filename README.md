@@ -68,3 +68,21 @@ public/
 Edit `src/data/portfolio.js` to update profile information, social links, projects, certificates, skills and journey content.
 
 Replace the files inside `public/resume/` and `public/certificates/` when you want to update the resume or certificates.
+
+
+## Local development (important)
+
+Always open the **extracted project folder** (the folder containing `package.json`) in VS Code. Do not edit files inside the ZIP.
+
+Run:
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the `localhost` URL printed by Vite.
+
+Vite is configured for reliable Hot Module Replacement (HMR). Source edits under `src/` should update the localhost page automatically. If an old page is still shown, stop the server with `Ctrl+C` and run `npm run dev` again.
+
+The Vite base path is `/` during local development and `/Piyush-Portfolio/` only for production/GitHub Pages, so local assets resolve independently from the deployed site.
